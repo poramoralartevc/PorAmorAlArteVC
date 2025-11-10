@@ -1,0 +1,87 @@
+#menu{
+    color:#FFD700;
+}
+.site-footer {
+  background-color: #FFD700; /* gris claro */
+  color: #333;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color:black;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top,
+.footer-middle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-contact,
+.footer-about,
+.footer-nav,
+.footer-hours {
+  flex: 1 1 200px; 
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #777;
+}
+.amarilla{
+background-color: #FFD700;
+}
+
+.headerimg{
+  width: 70px;
+  height: auto;
+}
+section{
+  margin: 30px;
+}
+.footerimg{
+  width: 200px;
+  height: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color:white;
+  padding: 2%;
+}
+.container div {
+  background-color: white;
+  border: 1px solid white;
+  padding: 10%;
+  text-align: left;
+  font-size: 130%;
+}
+.historia{
+  width: 120%;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
